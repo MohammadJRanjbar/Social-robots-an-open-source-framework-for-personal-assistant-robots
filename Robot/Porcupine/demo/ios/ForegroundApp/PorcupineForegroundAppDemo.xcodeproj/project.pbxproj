@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1A676C26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A676B26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.swift */; };
+		1E1A677826C3499800EDD6EC /* ananas_ios.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A677726C3499800EDD6EC /* ananas_ios.ppn */; };
+		1E1A677D26C34A8400EDD6EC /* framboise_ios.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A677C26C34A8400EDD6EC /* framboise_ios.ppn */; };
+		1E1A677F26C34A9400EDD6EC /* emparedado_ios.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A677E26C34A9400EDD6EC /* emparedado_ios.ppn */; };
+		1E1A678226C34AB600EDD6EC /* pico clock_ios.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678026C34AB500EDD6EC /* pico clock_ios.ppn */; };
+		1E1A678326C34AB600EDD6EC /* hey barista_ios.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678126C34AB500EDD6EC /* hey barista_ios.ppn */; };
+		1E1A678526C34AC000EDD6EC /* alexa_linux.ppn in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678426C34AC000EDD6EC /* alexa_linux.ppn */; };
+		1E1A678A26C34B0500EDD6EC /* porcupine_params_es.pv in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678726C34B0400EDD6EC /* porcupine_params_es.pv */; };
+		1E1A678B26C34B0500EDD6EC /* porcupine_params_de.pv in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678826C34B0400EDD6EC /* porcupine_params_de.pv */; };
+		1E1A678C26C34B0500EDD6EC /* porcupine_params_fr.pv in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678926C34B0500EDD6EC /* porcupine_params_fr.pv */; };
+		1E1A679126C34B2200EDD6EC /* porcupine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A678F26C34B2200EDD6EC /* porcupine.wav */; };
+		1E1A679226C34B2200EDD6EC /* multiple_keywords.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A679026C34B2200EDD6EC /* multiple_keywords.wav */; };
+		9402441AE2D4F0A739E9838E /* libPods-PorcupineForegroundAppDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164DB4D4CAA7F4BDEBF99C20 /* libPods-PorcupineForegroundAppDemoUITests.a */; };
+		98C07FAE08204ECF35C62683 /* libPods-PorcupineForegroundAppDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E42DB18835CE685BCEE511C /* libPods-PorcupineForegroundAppDemo.a */; };
+		BBE66BCE205DD6F7006005B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE66BCD205DD6F7006005B1 /* AppDelegate.swift */; };
+		BBE66BD0205DD6F7006005B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE66BCF205DD6F7006005B1 /* ViewController.swift */; };
+		BBE66BD3205DD6F7006005B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE66BD1205DD6F7006005B1 /* Main.storyboard */; };
+		BBE66BD5205DD6F7006005B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE66BD4205DD6F7006005B1 /* Assets.xcassets */; };
+		BBE66BD8205DD6F7006005B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE66BD6205DD6F7006005B1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E1A676E26C3434300EDD6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE66BC2205DD6F7006005B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE66BC9205DD6F7006005B1;
+			remoteInfo = PorcupineForegroundAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02FB765E25CA0965004826D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		026A05172693CF2C005C4511 /* libPorcupine-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPorcupine-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164DB4D4CAA7F4BDEBF99C20 /* libPods-PorcupineForegroundAppDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PorcupineForegroundAppDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1A676926C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorcupineForegroundAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1A676B26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorcupineForegroundAppDemoUITests.swift; sourceTree = "<group>"; };
+		1E1A676D26C3434300EDD6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1A677726C3499800EDD6EC /* ananas_ios.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = ananas_ios.ppn; path = ../../../../resources/keyword_files_de/ios/ananas_ios.ppn; sourceTree = "<group>"; };
+		1E1A677C26C34A8400EDD6EC /* framboise_ios.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = framboise_ios.ppn; path = ../../../../resources/keyword_files_fr/ios/framboise_ios.ppn; sourceTree = "<group>"; };
+		1E1A677E26C34A9400EDD6EC /* emparedado_ios.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = emparedado_ios.ppn; path = ../../../../resources/keyword_files_es/ios/emparedado_ios.ppn; sourceTree = "<group>"; };
+		1E1A678026C34AB500EDD6EC /* pico clock_ios.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pico clock_ios.ppn"; path = "../../../../resources/keyword_files/ios/pico clock_ios.ppn"; sourceTree = "<group>"; };
+		1E1A678126C34AB500EDD6EC /* hey barista_ios.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hey barista_ios.ppn"; path = "../../../../resources/keyword_files/ios/hey barista_ios.ppn"; sourceTree = "<group>"; };
+		1E1A678426C34AC000EDD6EC /* alexa_linux.ppn */ = {isa = PBXFileReference; lastKnownFileType = file; name = alexa_linux.ppn; path = ../../../../resources/keyword_files/linux/alexa_linux.ppn; sourceTree = "<group>"; };
+		1E1A678726C34B0400EDD6EC /* porcupine_params_es.pv */ = {isa = PBXFileReference; lastKnownFileType = file; name = porcupine_params_es.pv; path = ../../../../lib/common/porcupine_params_es.pv; sourceTree = "<group>"; };
+		1E1A678826C34B0400EDD6EC /* porcupine_params_de.pv */ = {isa = PBXFileReference; lastKnownFileType = file; name = porcupine_params_de.pv; path = ../../../../lib/common/porcupine_params_de.pv; sourceTree = "<group>"; };
+		1E1A678926C34B0500EDD6EC /* porcupine_params_fr.pv */ = {isa = PBXFileReference; lastKnownFileType = file; name = porcupine_params_fr.pv; path = ../../../../lib/common/porcupine_params_fr.pv; sourceTree = "<group>"; };
+		1E1A678F26C34B2200EDD6EC /* porcupine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = porcupine.wav; path = ../../../../resources/audio_samples/porcupine.wav; sourceTree = "<group>"; };
+		1E1A679026C34B2200EDD6EC /* multiple_keywords.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = multiple_keywords.wav; path = ../../../../resources/audio_samples/multiple_keywords.wav; sourceTree = "<group>"; };
+		1E42DB18835CE685BCEE511C /* libPods-PorcupineForegroundAppDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PorcupineForegroundAppDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC3815B148D5148AA1A5964 /* Pods-PorcupineForegroundAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorcupineForegroundAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6078105CAFE02E14A4C4BA /* Pods-PorcupineForegroundAppDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorcupineForegroundAppDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE66BCA205DD6F7006005B1 /* PorcupineForegroundAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PorcupineForegroundAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE66BCD205DD6F7006005B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBE66BCF205DD6F7006005B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBE66BD2205DD6F7006005B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBE66BD4205DD6F7006005B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBE66BD7205DD6F7006005B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBE66BD9205DD6F7006005B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CC279F4C61B173D8697030 /* Pods-PorcupineForegroundAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorcupineForegroundAppDemo.release.xcconfig"; path = "Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FCC6BC70B226AC08D2034C8B /* Pods-PorcupineForegroundAppDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorcupineForegroundAppDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1A676626C3434300EDD6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9402441AE2D4F0A739E9838E /* libPods-PorcupineForegroundAppDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE66BC7205DD6F7006005B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C07FAE08204ECF35C62683 /* libPods-PorcupineForegroundAppDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1A676A26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A677426C3490100EDD6EC /* test_resources */,
+				1E1A676B26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.swift */,
+				1E1A676D26C3434300EDD6EC /* Info.plist */,
+			);
+			path = PorcupineForegroundAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		1E1A677426C3490100EDD6EC /* test_resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A677526C3490A00EDD6EC /* keyword_files */,
+			);
+			name = test_resources;
+			sourceTree = "<group>";
+		};
+		1E1A677526C3490A00EDD6EC /* keyword_files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A678D26C34B0B00EDD6EC /* audio_samples */,
+				1E1A678626C34AD000EDD6EC /* model_files */,
+				1E1A677B26C34A6600EDD6EC /* en */,
+				1E1A677A26C34A6200EDD6EC /* es */,
+				1E1A677926C34A5D00EDD6EC /* fr */,
+				1E1A677626C3497C00EDD6EC /* de */,
+			);
+			name = keyword_files;
+			sourceTree = "<group>";
+		};
+		1E1A677626C3497C00EDD6EC /* de */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A677726C3499800EDD6EC /* ananas_ios.ppn */,
+			);
+			name = de;
+			sourceTree = "<group>";
+		};
+		1E1A677926C34A5D00EDD6EC /* fr */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A677C26C34A8400EDD6EC /* framboise_ios.ppn */,
+			);
+			name = fr;
+			sourceTree = "<group>";
+		};
+		1E1A677A26C34A6200EDD6EC /* es */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A677E26C34A9400EDD6EC /* emparedado_ios.ppn */,
+			);
+			name = es;
+			sourceTree = "<group>";
+		};
+		1E1A677B26C34A6600EDD6EC /* en */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A678426C34AC000EDD6EC /* alexa_linux.ppn */,
+				1E1A678126C34AB500EDD6EC /* hey barista_ios.ppn */,
+				1E1A678026C34AB500EDD6EC /* pico clock_ios.ppn */,
+			);
+			name = en;
+			sourceTree = "<group>";
+		};
+		1E1A678626C34AD000EDD6EC /* model_files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A678826C34B0400EDD6EC /* porcupine_params_de.pv */,
+				1E1A678726C34B0400EDD6EC /* porcupine_params_es.pv */,
+				1E1A678926C34B0500EDD6EC /* porcupine_params_fr.pv */,
+			);
+			name = model_files;
+			sourceTree = "<group>";
+		};
+		1E1A678D26C34B0B00EDD6EC /* audio_samples */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A679026C34B2200EDD6EC /* multiple_keywords.wav */,
+				1E1A678F26C34B2200EDD6EC /* porcupine.wav */,
+			);
+			name = audio_samples;
+			sourceTree = "<group>";
+		};
+		2BBD9051A599A3751D329DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3815B148D5148AA1A5964 /* Pods-PorcupineForegroundAppDemo.debug.xcconfig */,
+				D7CC279F4C61B173D8697030 /* Pods-PorcupineForegroundAppDemo.release.xcconfig */,
+				FCC6BC70B226AC08D2034C8B /* Pods-PorcupineForegroundAppDemoUITests.debug.xcconfig */,
+				AE6078105CAFE02E14A4C4BA /* Pods-PorcupineForegroundAppDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB65C7B0205F4BF400E8770E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026A05172693CF2C005C4511 /* libPorcupine-iOS.a */,
+				1E42DB18835CE685BCEE511C /* libPods-PorcupineForegroundAppDemo.a */,
+				164DB4D4CAA7F4BDEBF99C20 /* libPods-PorcupineForegroundAppDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE66BC1205DD6F7006005B1 = {
+			isa = PBXGroup;
+			children = (
+				BBE66BCC205DD6F7006005B1 /* PorcupineForegroundAppDemo */,
+				1E1A676A26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests */,
+				BBE66BCB205DD6F7006005B1 /* Products */,
+				BB65C7B0205F4BF400E8770E /* Frameworks */,
+				2BBD9051A599A3751D329DE8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BBE66BCB205DD6F7006005B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE66BCA205DD6F7006005B1 /* PorcupineForegroundAppDemo.app */,
+				1E1A676926C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE66BCC205DD6F7006005B1 /* PorcupineForegroundAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBE66BCD205DD6F7006005B1 /* AppDelegate.swift */,
+				BBE66BCF205DD6F7006005B1 /* ViewController.swift */,
+				BBE66BD1205DD6F7006005B1 /* Main.storyboard */,
+				BBE66BD4205DD6F7006005B1 /* Assets.xcassets */,
+				BBE66BD6205DD6F7006005B1 /* LaunchScreen.storyboard */,
+				BBE66BD9205DD6F7006005B1 /* Info.plist */,
+			);
+			path = PorcupineForegroundAppDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E1A676826C3434300EDD6EC /* PorcupineForegroundAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1A677026C3434300EDD6EC /* Build configuration list for PBXNativeTarget "PorcupineForegroundAppDemoUITests" */;
+			buildPhases = (
+				9FC7095EC41D3F3E4946822C /* [CP] Check Pods Manifest.lock */,
+				1E1A676526C3434300EDD6EC /* Sources */,
+				1E1A676626C3434300EDD6EC /* Frameworks */,
+				1E1A676726C3434300EDD6EC /* Resources */,
+				A55FE8CDFD5E960BD25BF8A1 /* [CP] Embed Pods Frameworks */,
+				B7492AA94D009BFB936526C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E1A676F26C3434300EDD6EC /* PBXTargetDependency */,
+			);
+			name = PorcupineForegroundAppDemoUITests;
+			productName = PorcupineForegroundAppDemoUITests;
+			productReference = 1E1A676926C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BBE66BC9205DD6F7006005B1 /* PorcupineForegroundAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE66BE7205DD6F7006005B1 /* Build configuration list for PBXNativeTarget "PorcupineForegroundAppDemo" */;
+			buildPhases = (
+				6C1AA9585BD75DCCFB45F279 /* [CP] Check Pods Manifest.lock */,
+				BBE66BC6205DD6F7006005B1 /* Sources */,
+				BBE66BC7205DD6F7006005B1 /* Frameworks */,
+				BBE66BC8205DD6F7006005B1 /* Resources */,
+				02FB765E25CA0965004826D5 /* Embed Frameworks */,
+				9A78D42DD73C7B435FAF4374 /* [CP] Embed Pods Frameworks */,
+				8FA8B79C31FD3FF2AD7076C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PorcupineForegroundAppDemo;
+			productName = ios;
+			productReference = BBE66BCA205DD6F7006005B1 /* PorcupineForegroundAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBE66BC2205DD6F7006005B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Picovoice;
+				TargetAttributes = {
+					1E1A676826C3434300EDD6EC = {
+						CreatedOnToolsVersion = 12.5.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBE66BC9205DD6F7006005B1;
+					};
+					BBE66BC9205DD6F7006005B1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BBE66BC5205DD6F7006005B1 /* Build configuration list for PBXProject "PorcupineForegroundAppDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBE66BC1205DD6F7006005B1;
+			productRefGroup = BBE66BCB205DD6F7006005B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE66BC9205DD6F7006005B1 /* PorcupineForegroundAppDemo */,
+				1E1A676826C3434300EDD6EC /* PorcupineForegroundAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1A676726C3434300EDD6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1A678326C34AB600EDD6EC /* hey barista_ios.ppn in Resources */,
+				1E1A678526C34AC000EDD6EC /* alexa_linux.ppn in Resources */,
+				1E1A678B26C34B0500EDD6EC /* porcupine_params_de.pv in Resources */,
+				1E1A678A26C34B0500EDD6EC /* porcupine_params_es.pv in Resources */,
+				1E1A677F26C34A9400EDD6EC /* emparedado_ios.ppn in Resources */,
+				1E1A678C26C34B0500EDD6EC /* porcupine_params_fr.pv in Resources */,
+				1E1A677826C3499800EDD6EC /* ananas_ios.ppn in Resources */,
+				1E1A677D26C34A8400EDD6EC /* framboise_ios.ppn in Resources */,
+				1E1A679126C34B2200EDD6EC /* porcupine.wav in Resources */,
+				1E1A678226C34AB600EDD6EC /* pico clock_ios.ppn in Resources */,
+				1E1A679226C34B2200EDD6EC /* multiple_keywords.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE66BC8205DD6F7006005B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE66BD8205DD6F7006005B1 /* LaunchScreen.storyboard in Resources */,
+				BBE66BD5205DD6F7006005B1 /* Assets.xcassets in Resources */,
+				BBE66BD3205DD6F7006005B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C1AA9585BD75DCCFB45F279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PorcupineForegroundAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA8B79C31FD3FF2AD7076C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo-resources.sh",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/alexa_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/americano_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/blueberry_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/bumblebee_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/computer_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/grapefruit_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/grasshopper_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/hey google_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/hey siri_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/jarvis_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/ok google_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/picovoice_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/porcupine_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/terminator_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/lib/common/porcupine_params.pv",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/alexa_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/americano_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/blueberry_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bumblebee_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/computer_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/grapefruit_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/grasshopper_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hey google_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hey siri_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jarvis_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ok google_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/picovoice_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/porcupine_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terminator_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/porcupine_params.pv",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A78D42DD73C7B435FAF4374 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/PvPorcupine/PvPorcupine.framework/PvPorcupine",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PvPorcupine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemo/Pods-PorcupineForegroundAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC7095EC41D3F3E4946822C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PorcupineForegroundAppDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55FE8CDFD5E960BD25BF8A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/PvPorcupine/PvPorcupine.framework/PvPorcupine",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PvPorcupine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7492AA94D009BFB936526C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests-resources.sh",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/alexa_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/americano_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/blueberry_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/bumblebee_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/computer_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/grapefruit_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/grasshopper_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/hey google_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/hey siri_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/jarvis_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/ok google_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/picovoice_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/porcupine_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/resources/keyword_files/ios/terminator_ios.ppn",
+				"${PODS_ROOT}/Porcupine-iOS/lib/common/porcupine_params.pv",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/alexa_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/americano_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/blueberry_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bumblebee_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/computer_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/grapefruit_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/grasshopper_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hey google_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hey siri_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jarvis_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ok google_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/picovoice_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/porcupine_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/terminator_ios.ppn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/porcupine_params.pv",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PorcupineForegroundAppDemoUITests/Pods-PorcupineForegroundAppDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1A676526C3434300EDD6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1A676C26C3434300EDD6EC /* PorcupineForegroundAppDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE66BC6205DD6F7006005B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE66BD0205DD6F7006005B1 /* ViewController.swift in Sources */,
+				BBE66BCE205DD6F7006005B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E1A676F26C3434300EDD6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE66BC9205DD6F7006005B1 /* PorcupineForegroundAppDemo */;
+			targetProxy = 1E1A676E26C3434300EDD6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBE66BD1205DD6F7006005B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE66BD2205DD6F7006005B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBE66BD6205DD6F7006005B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE66BD7205DD6F7006005B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E1A677126C3434300EDD6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC6BC70B226AC08D2034C8B /* Pods-PorcupineForegroundAppDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65723695GD;
+				INFOPLIST_FILE = PorcupineForegroundAppDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = picovoice.PorcupineForegroundAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PorcupineForegroundAppDemo;
+			};
+			name = Debug;
+		};
+		1E1A677226C3434300EDD6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6078105CAFE02E14A4C4BA /* Pods-PorcupineForegroundAppDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65723695GD;
+				INFOPLIST_FILE = PorcupineForegroundAppDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = picovoice.PorcupineForegroundAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PorcupineForegroundAppDemo;
+			};
+			name = Release;
+		};
+		BBE66BE5205DD6F7006005B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FXK66JFZWS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBE66BE6205DD6F7006005B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FXK66JFZWS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBE66BE8205DD6F7006005B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC3815B148D5148AA1A5964 /* Pods-PorcupineForegroundAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 65723695GD;
+				INFOPLIST_FILE = "$(SRCROOT)/PorcupineForegroundAppDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.picovoice.PorcupineForegroundAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBE66BE9205DD6F7006005B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CC279F4C61B173D8697030 /* Pods-PorcupineForegroundAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 65723695GD;
+				INFOPLIST_FILE = "$(SRCROOT)/PorcupineForegroundAppDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.picovoice.PorcupineForegroundAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1A677026C3434300EDD6EC /* Build configuration list for PBXNativeTarget "PorcupineForegroundAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1A677126C3434300EDD6EC /* Debug */,
+				1E1A677226C3434300EDD6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE66BC5205DD6F7006005B1 /* Build configuration list for PBXProject "PorcupineForegroundAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE66BE5205DD6F7006005B1 /* Debug */,
+				BBE66BE6205DD6F7006005B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE66BE7205DD6F7006005B1 /* Build configuration list for PBXNativeTarget "PorcupineForegroundAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE66BE8205DD6F7006005B1 /* Debug */,
+				BBE66BE9205DD6F7006005B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBE66BC2205DD6F7006005B1 /* Project object */;
+}

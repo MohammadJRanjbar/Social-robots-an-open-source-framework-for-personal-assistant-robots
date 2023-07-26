@@ -1,0 +1,7 @@
+app.py اول
+flask run --port=7000
+بعد python manage.py runserver
+بعدم سرور  
+
+http://127.0.0.1:8000/ ادرس سرور
+بعدم رزبری 
