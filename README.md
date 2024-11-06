@@ -46,12 +46,15 @@ The **Robot** module comprises the main functionality of the social assistant ro
 If you use this framework in your research or project, please cite it as follows:
 
 ```
-@misc{Amini2024socialrobot,
-  author = {Mohammad Javad Ranjbar Kalahroodi},
-  title = {Social Robots: An Open-Source Framework for Personal Assistant Robots},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub Repository},
-  url = {https://github.com/MohammadJRanjbar/Social-robots-an-open-source-framework-for-personal-assistant-robots}
+@INPROCEEDINGS{Ranjbar2022socialrobot,
+  author={Mohammad Javad Ranjbar Kalharoodi and Mohammad Bagher Menhaj and Hassan Taheri},
+  title={Social Robots: An Open-Source Architecture for Personal Assistant Robots},
+  booktitle={2022 10th RSI International Conference on Robotics and Mechatronics (ICRoM)},
+  year={2022},
+  pages={1-6},
+  publisher={IEEE},
+  doi={10.1109/ICRoM57054.2022.10025253},
+  url={https://ieeexplore.ieee.org/document/10025253}
 }
+
 ```
